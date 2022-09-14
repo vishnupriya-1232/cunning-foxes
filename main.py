@@ -23,9 +23,10 @@ icon = pygame.image.load('icons8-fox-30.png')
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load('chick.jfif')
+playerImg = pygame.image.load('icons8-chick-58.png')
 playerX = 370
 playerY = 480
+
 playerX_change = 0
 
 # Enemy
@@ -37,11 +38,11 @@ enemyY_change = []
 num_of_enemies = 6
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('foxes.png'))
+    enemyImg.append(pygame.image.load('cunning.png'))
     enemyX.append(random.randint(0, 736))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(4)
-    enemyY_change.append(40)
+    enemyY_change.append(4)
 
 # Bullet
 
